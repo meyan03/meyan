@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mon Site Web</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bienvenue sur mon site !</h2>
+            <p>Tu as envie d'entreprendre ?</p>
+            <p>Mais t'as des peurs ?</p>
+            <p>Tu te poses plusieurs questions ?</p>
+            <p>Alors permet-moi de te dire plusieurs choses :</p>
+            <figure>
+                <img src="echec.jpeg" alt="L'échec est souvent une étape vers le succès">
+                <figcaption>L'échec est souvent une étape vers le succès</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h3>Quelques plans d'action pour toi !</h3>
+
+            <article>
+                <figure>
+                    <img src="preparer.jpg" alt="Acquérir des connaissances sur le domaine d'activité et les compétences nécessaires">
+                    <figcaption>Acquérir des connaissances</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="plan.jpg" alt="Établir un plan d'affaires détaillé">
+                    <figcaption>Établir un plan d'affaires détaillé</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="mentor.png" alt="Rejoindre des réseaux d'entrepreneurs">
+                    <figcaption>Rejoindre des réseaux d'entrepreneurs</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="economie.jpg" alt="Gérer les finances avec prévoyance">
+                    <figcaption>Gérer les finances avec prévoyance</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="confiance.jpeg" alt="Accepter les défis et rester confiant face aux obstacles">
+                    <figcaption>Accepter les défis et rester confiant</figcaption>
+                </figure>
+            </article>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; TRAORE Meyan </p>
+    </footer>
+
+</body>
+</html>
